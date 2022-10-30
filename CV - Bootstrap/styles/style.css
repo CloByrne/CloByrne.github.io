@@ -1,0 +1,153 @@
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+.flex-container{
+	display:flex;
+	background-color:grey;
+	flex-direction:column;
+}
+.flex-container div{
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+.flex-container-1{
+	display:flex;
+	background-color:grey;
+	flex-direction:column;
+}
+.flex-container-1 div{
+  background-color:white;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+}
+.flex-container-2{
+	display:flex;
+	background-color:grey;
+	flex-direction:column;
+}
+.flex-container-2 div{
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+
+}
+.flex-container-3{
+	display:flex;
+	flex-wrap:wrap;
+	background-color:grey;
+	flex-direction:row;
+	justify-content:center;
+}
+.flex-container-3 div{
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+
+}
+.flex-container-4{
+	display:flex;
+	flex-wrap:wrap;
+	background-color:grey;
+	flex-direction:column;
+	justify-content:center;
+}
+.flex-container-4 div{
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+.box{
+	flex:100%;
+}
+.box-1{
+	flex:30%;
+}
+.box-2{
+	flex:30%;
+}
+.box-3{
+	flex:30%;
+}
+body{
+	font-size:100%;
+	background:#F0F8FF;
+	text-align:center;
+}
+p{
+	color:#000000
+	font-family:Arial;
+}
+h1{
+	color:#8B008B;
+	font-family:Georgia;
+	text-shadow: 2px 2px;
+}
+h2{
+	color:#9932CC;
+	font-family:Georgia;
+	text-shadow: 1px 1px;
+}
+h3{
+	color:#4B0082;
+	font-family:Georgia;
+}
+.font-style{
+	text-decoration:underline;
+	font-weight:bold;
+}
+.font-style-bold{
+	font-weight:bold;
+}
+ul {
+    text-align: left;
+    list-style-position: inside;
+}
+ol {
+    text-align: center;
+    list-style-position: inside;
+}
+.flex-container-5{
+	display:flex;
+	flex-wrap:wrap;
+	background-color:grey;
+	flex-direction:row;
+	justify-content:center;
+}
+.flex-container-5 div{
+  background-color: #fff;
+  margin: 10px;
+  padding: 10px;
+  font-size: 40px;
+}
+.flex-container-a{
+
+}
+.flex-container-a div{
+  background-color: #c4abff;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+.box-a{
+	flex:75%;
+}
+.box-b{
+	flex:25%;
+}
+.flex-container-b{
+
+}
+.flex-container-b div{
+  background-color: #c4abff;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  flex:85%;
+}
